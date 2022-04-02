@@ -109,7 +109,8 @@
     background-color: #fddde4;
 }
 .product,
-.newArrival{
+.newArrival,
+.banners{
     padding: 0px 70px;
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +171,8 @@
     padding: 0px 10px;
     font-size: 60px;
 }
-.Explore-btn{
+.Explore-btn,
+.btn-banner{
     margin-left: 47vw;
     width: 100px;
     height: 45px;
@@ -179,15 +181,86 @@
     font-weight:500;
     border: none;
 }
-.Explore-btn:hover{
+.Explore-btn:hover,
+.btn-banner:hover{
     background-color: #088178;
     color: whitesmoke;
 }
-
 .newArrival h1{
 width: 100%;
 text-align: center;
 height: 80px;
 font-size: 50px;
 padding: 10px 0px;
+}
+.banners{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lg-banner{
+    height: 270px;
+    width: 600px;
+    text-align: left;
+    vertical-align: middle;
+    background-image: url("img/banner/b17.jpg");
+    background-size: cover;
+    margin: 20px 30px;
+    color: white;
+}
+.lg-banner2{
+    height: 270px;
+    width: 600px;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+    background-image: url("img/banner/b10.jpg");
+    background-size: cover;
+    margin: 20px 30px;
+    color: white;
+}
+.lg-banner h2,
+.lg-banner2 h2{
+    padding: 60px 0px 0px 25px;
+}
+.lg-banner h1,h4,
+.lg-banner2 h1,h4{
+    padding: 15px 0px 0px 25px;
+} 
+.btn-banner{
+    padding: 0px;
+    margin: 15px 0px 0px 70px;
+    font-size: 15px;
+}
+.mg-banner2_1,
+.mg-banner2_2,
+.mg-banner2_3{
+    height:200px;
+    width: 375px;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+    background-image: url("img/banner/b7.jpg");
+    background-size: cover;
+    margin: 20px 30px;
+    color: white;
+}
+.mg-banner2_2{
+    background-image: url("img/banner/b4.jpg");
+}
+.mg-banner2_3{
+    background-image: url("img/banner/b18.jpg");
+}
+.mg-banner2_1 h1,
+.mg-banner2_2 h1,
+.mg-banner2_3 h1{
+color: white;
+font-weight: 700;
+padding: 60px 0px 0px 20px;
+}
+.mg-banner2_1 h2,
+.mg-banner2_2 h2,
+.mg-banner2_3 h2{
+color: red;
+font-weight: 700;
+padding: 10px 0px 0px 20px;
 }
