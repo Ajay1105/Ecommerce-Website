@@ -43,30 +43,29 @@
 .hero{
     background-image: url(img/hero4.png);
     height: 90vh;
-    width: 100vw;
+    width: 100%;
     background-size:cover;
     background-position: top 25% right 0%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding-left: 30px;
+    align-items: flex-start; 
     justify-content: center;
 }
 .hero h4{
-    padding-bottom: 15px;
+    padding:0px 0px 15px 100px;
     font-size: 30px;
 }
 .hero h2{
-    padding-bottom: 15px;
+    padding:0px 0px 15px 100px;
     font-size: 40px;
 }
 .hero h1{
-    padding-bottom: 15px;
+    padding:0px 0px 15px 100px;
     font-size: 50px;
     color: #088178;
 }
 .hero p{
-    padding-bottom: 15px;
+    padding:0px 0px 15px 100px;
     font-size: 20px;
 }
 #shop{
@@ -79,6 +78,7 @@
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
+    margin-left: 150px;
 }
 
 .features{
@@ -108,12 +108,14 @@
     line-height: 1;
     background-color: #fddde4;
 }
-.product{
+.product,
+.newArrival{
     padding: 0px 70px;
     display: flex;
     flex-wrap: wrap;
 }
-.pro{
+.pro,
+.arv{
    padding: 0px 40px;
    margin: 15px 0px;
    display: flex;
@@ -127,14 +129,16 @@
    border-radius: 5px;
    box-shadow: 5px 10px 20px #cce7d0;
 }
-.pro:hover{
+.pro:hover,
+.arv:hover{
     box-shadow: 5px 10px 20px #088178;
 }
 .pro-star{
     display: flex;
     color: rgb(247, 247, 8);
 }
-.pro img{
+.pro img,
+.arv img{
     width:250px;
 }
 #price{
@@ -182,5 +186,8 @@
 
 .newArrival h1{
 width: 100%;
-
+text-align: center;
+height: 80px;
+font-size: 50px;
+padding: 10px 0px;
 }
