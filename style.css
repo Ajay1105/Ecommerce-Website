@@ -140,3 +140,47 @@
 #price{
     color: #088178;
 }
+
+.banner{
+    color: #E3E6F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    background-image: url("img/banner/b2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner h4{
+    font-size: 30px;
+}
+.banner span{
+    color: red;
+    padding: 0px 10px;
+    font-size: 60px;
+}
+.Explore-btn{
+    margin-left: 47vw;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    font-weight:500;
+    border: none;
+}
+.Explore-btn:hover{
+    background-color: #088178;
+    color: whitesmoke;
+}
+
+.newArrival h1{
+width: 100%;
+
+}
