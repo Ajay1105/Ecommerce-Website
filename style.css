@@ -264,3 +264,35 @@ color: red;
 font-weight: 700;
 padding: 10px 0px 0px 20px;
 }
+.newsletter{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("img/banner/b1.jpg");
+    background-size: cover;
+    padding: 40px 50px;
+    color: #cce7d0;
+}
+.inputNews{
+    display: flex;
+    flex-direction: row;
+}
+.inputNews input{
+   height: 30px;
+   width: 35vh;
+   margin: 0px;
+   padding: 0px;
+   border: 1px solid transparent;
+}
+.inputNews button{
+    height: 32px;
+    width: 90px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid transparent;
+    background-color: #088178;
+    color: #E3E6F3;
+}
+.inputNews button:hover{
+    background-color:#cce7d0;
+    color: #088178;
+}
