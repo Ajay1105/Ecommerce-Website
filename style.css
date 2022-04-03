@@ -282,6 +282,9 @@ padding: 10px 0px 0px 20px;
    margin: 0px;
    padding: 0px;
    border: 1px solid transparent;
+   border-radius: 3px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
 }
 .inputNews button{
     height: 32px;
@@ -291,8 +294,34 @@ padding: 10px 0px 0px 20px;
     border: 1px solid transparent;
     background-color: #088178;
     color: #E3E6F3;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 .inputNews button:hover{
     background-color:#cce7d0;
     color: #088178;
+}
+.footer{
+    display: flex;
+    padding: 30px 60px;
+    justify-content: space-between;
+    background-color: #E3E6F3;
+}
+.footer h3{
+    font-size: 25px;
+    padding: 5px 0px;
+}
+.footer p{
+    font-size: 17px;
+    padding: 1px 0px;
+}
+.footer img{
+    outline: solid 1px #088178;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #cce7d0;
+    font-weight: 100;
 }
