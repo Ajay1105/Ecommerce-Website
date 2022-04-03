@@ -25,6 +25,9 @@
     text-decoration: none;
     transition: 0.3s ease;
 }
+.mobile{
+    display: none;
+}
 .navContent a:hover,
 .navContent a.active{
    color: #088178;
@@ -324,4 +327,25 @@ padding: 10px 0px 0px 20px;
     text-align: center;
     background-color: #cce7d0;
     font-weight: 100;
+}
+
+@media  (max-width:799px) {
+    .navContent{
+        padding: 10px 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 0px;
+        right: -300px;
+        height: 100%;
+        background-color: #cce7d0;
+        position: fixed;
+    }
+    .navContent a{
+        padding: 8px 15px;
+    }
+    .mobile{
+        display: inline;
+    }
 }
