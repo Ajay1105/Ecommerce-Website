@@ -30,5 +30,23 @@ Array.from(document.querySelectorAll(".arv")).forEach((element, i) => {
     element.querySelector(".brand").innerHTML = arrivals[i].brand;
     element.querySelector("#price").innerHTML = arrivals[i].price;
 })
+let bar = document.querySelector("#bar");
+if(bar){
+    bar.addEventListener('click',()=>{
+        console.log("clicked");
+        document.querySelector(".navContent").style.right='0px';
+        document.querySelector(".navContent").innerHTML=`<a class="active" href="index.html">Home</a>
+        <a href="index.html">Shop</a>
+        <a href="index.html">Blog</a>
+        <a href="index.html">About</a>
+        <a href="index.html">contact</a>
+        <a href="index.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>`
+        document.querySelector("#bar").addEventListener('click',()=>{
+            console.log("clicked");
+            document.querySelector(".navContent").style.right='-300px';
+        })
+    })
+}
 
 
