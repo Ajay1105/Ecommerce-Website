@@ -23,9 +23,10 @@
     font: 25px sans-serif;
     padding: 0px 20px;
     text-decoration: none;
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
-.mobile{
+.mobile,
+#close{
     display: none;
 }
 .navContent a:hover,
@@ -346,7 +347,8 @@ padding: 10px 0px 0px 20px;
     .navContent a{
         padding: 8px 15px;
     }
-    .mobile{
+    .mobile,
+    #close{
         display: inline;
     }
 }
