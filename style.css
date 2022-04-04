@@ -404,3 +404,46 @@ padding: 10px 0px 0px 20px;
  bottom: -4px;
  left: 132px;
 }
+
+/* sProduct */
+
+.sProImg{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+}
+.sPro-lg-img{
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+}
+.sPro-sm-imgages{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.sPro-sm-img{
+    padding: 10px 24px 10px 0px;
+    height: 120px;
+    width: 82px;
+    border-radius: 5px;
+}
+.sProRight{
+    padding: 50px;
+}
+.sProBtn{
+    height: 32px;
+    width: 90px;
+    border: 1px solid transparent;
+    background-color: #088178;
+    color: #E3E6F3;
+    border-radius: 3px;
+}
+.sProBtn:hover{
+    background-color:#cce7d0;
+    color: #088178;
+}
+.sProRight h4{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
