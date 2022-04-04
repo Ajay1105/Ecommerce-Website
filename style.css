@@ -383,10 +383,24 @@ padding: 10px 0px 0px 20px;
     color: #cce7d0;
     background-color: #088178;
     border: 0px;
-    border-radius: 1px;
+    border-radius: 3px;
     margin: 0px 3px;
 }
 .sBtn:hover{
-    background-color: #cce7d0;
+    background-color: #cbf6d2;
     color: #088178;
+    box-shadow: 5px 5px 5px #088178;
+    cursor: pointer;
+}
+.navContent a.active2{
+   color: #088178;
+}
+.navContent a.active2::after{
+   content: "";
+   height: 2px;
+   width: 6%;
+ position: absolute;
+ background-color: #088178;
+ bottom: -4px;
+ left: 132px;
 }
