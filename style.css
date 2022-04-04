@@ -121,6 +121,7 @@
 }
 .pro,
 .arv{
+   background-color: #f0f2e5;
    padding: 0px 40px;
    margin: 15px 0px;
    display: flex;
@@ -414,22 +415,24 @@ padding: 10px 0px 0px 20px;
 }
 .sPro-lg-img{
     height: 450px;
-    width: 400px;
+    width: 450px;
     border-radius: 5px;
 }
 .sPro-sm-imgages{
     display: flex;
     flex-direction: row;
     width: fit-content;
+    cursor: pointer;
 }
 .sPro-sm-img{
     padding: 10px 24px 10px 0px;
     height: 120px;
-    width: 82px;
+    width: 94px;
     border-radius: 5px;
 }
 .sProRight{
     padding: 50px;
+    width: 1000px;
 }
 .sProBtn{
     height: 32px;
@@ -438,6 +441,7 @@ padding: 10px 0px 0px 20px;
     background-color: #088178;
     color: #E3E6F3;
     border-radius: 3px;
+    margin-bottom: 10px;
 }
 .sProBtn:hover{
     background-color:#cce7d0;
@@ -445,5 +449,20 @@ padding: 10px 0px 0px 20px;
 }
 .sProRight h4{
     font-size: 18px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+.sProRight h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.sProRight h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.sProRight input{
+    text-align: center;
+    padding: 0%;
+    margin:8px;
+    height: 28px;
+    width: 40px;
 }

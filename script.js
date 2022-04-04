@@ -39,5 +39,12 @@ if(bar){
         })
     })
 }
+// sproduct
+let mainImage = document.querySelector(".sPro-lg-img");
+Array.from(document.querySelectorAll(".sPro-sm-img")).forEach((element)=>{
+    element.addEventListener("click",()=>{
+        mainImage.src = element.src;
+    })
+})
 
 
