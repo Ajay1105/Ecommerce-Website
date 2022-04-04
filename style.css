@@ -360,7 +360,8 @@ padding: 10px 0px 0px 20px;
 
 /* shop page */
 
-.sHeader{
+.sHeader,
+.bHeader{
     height: 280px;
     background-image: url(img/banner/b1.jpg);
     background-repeat: no-repeat;
@@ -465,4 +466,44 @@ padding: 10px 0px 0px 20px;
     margin:8px;
     height: 28px;
     width: 40px;
+}
+/* blog */
+.navContent a.active3{
+    color: #088178;
+ }
+ .navContent a.active3::after{
+    content: "";
+    height: 2px;
+    width: 6%;
+  position: absolute;
+  background-color: #088178;
+  bottom: -4px;
+  left: 233px;
+ }
+.bHeader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+  background-image: url(img/banner/b19.jpg); 
+  color: #1c437e; 
+  margin: 0px;
+}
+.blog {
+width: 100%;
+height: 50vh;
+color: black;
+background-color: #f0f2e5;
+text-align: center;
+padding-top: 22vh;
+position: relative;
+}
+.blog p{
+    font-size: 50px;   
+}
+#maybe{
+    color: rgb(174, 172, 172);
+    position: absolute;
+    right: 29%;
+    top: 41%;
 }
