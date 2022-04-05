@@ -47,4 +47,11 @@ Array.from(document.querySelectorAll(".sPro-sm-img")).forEach((element)=>{
     })
 })
 
+Array.from(document.querySelectorAll("button")).forEach((element)=>{
+ element.addEventListener("click",()=>{
+   alert("This feature is under construction")
+})
+})
+
+
 

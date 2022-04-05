@@ -528,7 +528,6 @@ position: relative;
      padding-top: 13vh;
      color: whitesmoke;
  }
-
  .aContent{
      margin: 20px 8vw;
      display: flex;
@@ -548,3 +547,75 @@ position: relative;
 .aContent marquee{
     margin-top: 30px;
 }
+.app{
+    align-items: center;
+    text-align: center;
+}
+.app h1{
+    font-size: 40px;
+    padding: 20px 0px;
+}
+.app video{
+    height: 500px;
+    width: auto;
+    padding-bottom: 30px;
+}
+/* contact */
+.navContent a.active5{
+    color: #088178;
+ }
+ .navContent a.active5::after{
+    content: "";
+    height: 2px;
+    width: 11%;
+  position: absolute;
+  background-color: #088178;
+  bottom: -4px;
+  left:437px;
+ }
+.cContent{
+    display: flex;
+    justify-content: space-between;
+    margin:2vh 10vw;
+}
+.cContent h1{
+    padding: 90px 0px 40px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contactUsForm{
+    margin: 50px 90px;
+}
+.contactUsForm div{
+    display: flex;
+    flex-direction: column;
+}
+.contactUsForm h3{
+    color: #088178;
+    padding-left: 35vw;
+    font-size: 25px;
+}
+#message{
+    height: 100px;
+}
+.contactUsForm input{
+    margin: 20px 80px 0px 0px;
+    height: 25px;
+}
+.Contact-btn{
+    margin-top: 2vh;
+    margin-left: 75.5vw;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    font-weight:500;
+    border: none;
+    background-color: #088178;
+    color: whitesmoke;
+}
+.Contact-btn:hover{
+    background-color: whitesmoke;
+    color: #088178;
+}
+
