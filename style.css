@@ -618,3 +618,20 @@ position: relative;
     background-color: whitesmoke;
     color: #088178;
 }
+/* cart */
+.navContent a.active6{
+    color: #088178;
+ }
+ .navContent a.active6::after{
+    content: "";
+    height: 2px;
+    width:4%;
+  position: absolute;
+  background-color: #088178;
+  bottom: -4px;
+  left: 565px;
+ }
+ .cart{
+     width: 100%;
+     
+ }
